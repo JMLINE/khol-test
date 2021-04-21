@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<style>
+#overlay {
+position: fixed;
+top: 40px; left: 10em;
+bottom: 40px; right: 10em;
+background-color: white;
+color: #FFF;
+z-index:5;
+animation-duration: .6s;
+animation-name: slidein;
+
+
+}
+@keyframes slidein {
+    0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#image1{
+    width: 7em;
+    text-align: left;
+    margin: 1em;
+    margin-top: 10%;
+      
+}
+#image2{
+    width: 7em;
+    text-align: left;
+    margin: 1em;
+    margin-top: 10%;   
+}
+.row1{
+    background-image:  linear-gradient(to right, #096079, #00d4ff );   
+}
+
+.row2{
+    background-color: white; 
+}
+
+.row3{
+  background-color: white;  
+}
+.row4{
+    color: black;
+}
+body{
+    background-color: green;
+    
+}
+.price{
+    color: black;
+    margin-top: 10%;
+}
+#exitButton{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    
+}
+#exitButton:hover{
+    color: red;
+}
+.overlayHeader{
+    text-align: center;
+    font-size: 25pt;
+}
+.total{
+    text-align: center;
+}
+#proceedBtn{
+    background-color: #Be2597;
+    border: none;
+    width: 100%;
+    height: 5em;
+   
+}
+#proceedBtn:hover{
+    background-color:#E52eb6;
+
+}
+.overlayMain {
+background-color: black;
+color: #FFF;
+}
+
+</style>
+</head>
+<body>
+    <div id="overlay">
+        <div class="container">
+        <div class = "row row1">
+            <div class = "col-md-1"></div>
+            <div class= "col-md-10 overlayHeader">
+                Ready to Checkout?
+            </div>
+            <div class = "col-md-1" id = "exitButton" onCLick = overlayOff()><b>X</b></div>
+        </div>
+        <div class = "row row4">
+            <div class = "col-md-12 total"><b>Quantity: </b></div>
+        </div>
+        <div class="row row2">
+            <div class = "col-md-2"></div>
+          <div class="col-md-6 firstItem">
+            <img id = "image1" src = "./image1.png">
+          </div>
+          <div class ="col-md-2 price"><b></b></div>
+          </div>
+    
+         
+         <!-- image 2 -->
+          <div class="row row3">
+            <div class = "col-md-2"></div>
+          <div class="col-md-6 secondItem">
+            <img id = "image2" src = "./image1.png">
+          </div>
+         
+          <div class ="col-md-2 price"><b>Price: </b></div>
+        </div>
+        
+        <div class = "row row5">
+            <div class = "col-md-12">
+            </div>
+        </div>
+    </div>
+    <!-- <button onclick="document.location='https://www.kohls.com/checkout/shopping_cart.jsp'">HTML Tutorial</button> -->
+   
+    <button id = "proceedBtn" onclick="document.location='https://www.kohls.com/checkout/shopping_cart.jsp'">Proceed to Checkout</button>
+
+</div>
+</div>
+
+
+
+
+<!-- <button id = "proceedBtn" a href = "https://www.kohls.com/checkout/shopping_cart.jsp">Proceed to Checkout</button>' -->
+
+
+
+
+
+
+<div id="mainBody">
+   
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas. -->
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    I love headings
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    I love headings
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    I love headings
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    I love headings
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum aspernatur! Veniam, quas.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quae sapiente vitae veniam soluta odio labore possimus recusandae. Dolorum nisi maxime explicabo est illo tenetur harum</div>
+
+<script>
+
+
+
+function overlayOff() {
+ document.getElementById("overlay").style.display = "none";
+ document.getElementById("mainBody").style.backgroundColor = "green";
+document.getElementById("mainBody").style.opacity = "1"
+}
+
+function background(){
+    document.body.style.backgroundColor = "black";
+    document.body.style.opacity = ".1";
+}
+
+document.getElementById("overlay").style.display = "none";
+
+document.addEventListener('scroll', function getScrollPercent() {
+    var h = document.documentElement;
+    var b = document.body;
+      var st = 'scrollTop';
+     var sh = 'scrollHeight';
+    var scrollPercent = (((h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100).toFixed(0))
+    console.log(scrollPercent)
+   if(scrollPercent > 20){
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("mainBody").style.backgroundColor = "#282828";
+    document.getElementById("mainBody").style.opacity = ".9"
+    
+
+} else {
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("mainBody").style.backgroundColor = "green";
+    document.getElementById("mainBody").style.opacity = "1"
+}})
+
+
+
+
+
+
+</script>
+   
+</body>
+</html> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
+(document.script).append('<script src ="index.js"></script>')
+<!-- (document.head).append('<script src = "jquery-3.5.1.min.js"></script>')
+
+
+let ItemQuantity =  document.getElementsByClassName("number-items boss-number-items nonzero-items")[0].innerHTML
+console.log(ItemQuantity)
+
+let CartSubtotal = document.getElementsByClassName("subtotal")[0].innerHTML
+console.log(CartSubtotal)
+
+
+let cartImgSrc3 = document.getElementsByClassName("front")[0].getElementsByTagName("img")[0].src
+console.log(cartImgSrc3)
+let cartImgSrc4 = document.getElementsByClassName("front")[1].getElementsByTagName("img")[0].src
+console.log(cartImgSrc4)
+ -->
+
+ <!-- // (document.head).append('<script src = "jquery-3.5.1.min.js"></script>')
+
+
+
+let ItemQuantity =  document.getElementsByClassName("number-items boss-number-items nonzero-items")[0].innerHTML
+console.log(ItemQuantity)
+
+let CartSubtotal = document.getElementsByClassName("subtotal")[0].innerHTML
+console.log(CartSubtotal)
+
+
+let cartImgSrc3 = document.getElementsByClassName("front")[0].getElementsByTagName("img")[0].src
+console.log(cartImgSrc3)
+let cartImgSrc4 = document.getElementsByClassName("front")[1].getElementsByTagName("img")[0].src
+console.log(cartImgSrc4)
+let image1 = "https://media.kohlsimg.com/is/image/kohls/4431869?wid=350&hei=350&op_sharpen=1"
+let image2 = "https://media.kohlsimg.com/is/image/kohls/2718234?wid=350&hei=350&op_sharpen=1"
+
+
+
+// let image1 = cartImgSrc[0].getElementsByTagName("img")[0].src
+// let image2 = cartImgSrc[1].getElementsByTagName("img")[0].src
+// console.log(image1)
+// console.log(image2)
+
+// document.body.onload = addElements;
+// window.alert("test")
+//  alert("this is a test")
+// function addElements(){
+   
+// //    let overlay = document.createElement('div')
+// //    overlay.innerHTML = "THIS IS A TEST"
+
+
+// //     bodySelector.appendChild(overlay)
+// }
+// addElements()
+
+
+
+// sc.setAttribute("src", "https://getfirebug.com/firebug-lite.js");
+// sc.setAttribute("type", "text/javascript");
+// document.head.appendChild(sc);
+// let kohlsContainer = document.querySelector('container')
+
+let htmlCodeBlock =  '<div id="overlay">' +
+       ' <div class="container">' +
+     '   <div class = "row row1">' +
+           ' <div class = "col-md-1"></div>'+
+          '  <div class= "col-md-10 overlayHeader">'
+            '    Ready to Checkout?'+
+         '   </div>'+
+         '   <div class = "col-md-1" id = "exitButton" onCLick = overlayOff()><b>X</b></div>'+
+      '  </div>'+
+      '  <div class = "row row4">'+
+      '      <div class = "col-md-12 total"><b>Total: $</b></div>'+
+     '   </div>'+
+      '  <div class="row row2">'+
+       '     <div class = "col-md-2"></div>'+
+         ' <div class="col-md-6 firstItem">'+
+         '   <img id = "image1" src = "./image1.png">'+
+      '    </div>'+
+        '  <div class ="col-md-2 price"><b>Quantity: </b></div>'+
+        ' </div>'+
+    
+         
+       
+        '<div class="row row3">'+
+         '   <div class = "col-md-2"></div>'+
+        '  <div class="col-md-6 secondItem">'+
+         '   <img id = "image2" src = "./image1.png">'+
+       '   </div>'+
+     '     <div class ="col-md-2 price"><b>Quantity: </b></div>'+
+      '  </div>'+
+     
+        
+   '     <div class = "row row5">'+
+         '   <div class = "col-md-12">'+
+         '   </div>'+
+      '  </div>'+
+   ' </div>'+
+  '  <button id = "proceedBtn">Proceed to Checkout</button>'+
+'</div>'+
+'</div>'
+let createdElement = document.createElement("div");
+createdElement.innerHTML = htmlCodeBlock
+document.body.appendChild(createdElement)
+
+// document.getElementById("container").innerHTML = htmlCodeBlock -->
